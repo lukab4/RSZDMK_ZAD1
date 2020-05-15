@@ -175,7 +175,7 @@ int main()
       	}
         if(taster == '5' && unos == 1)
         {
-          unsigned char unos = 0;
+          unos = 0;
           unsigned char tacno = 1;
           lcd.setCursor(0,1);
           for(unsigned char i = 0 ; i<4 ; i++)
